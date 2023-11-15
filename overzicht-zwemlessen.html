@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link href="sf.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta name="description" content="SportFusion Camp: Waar Passie en Prestatie Samenkomen">
 
     <title>SportFusion Camp :: zwemlessen</title>
@@ -13,27 +14,35 @@
 
 <body>
 
-    <header>
-        <table>
-            <tr>
-                <td>
-                    <a href="index.html"><img src="images/logo-sportfusion-camp.png" alt="Logo SportFusion Camp"
-                            height="25">
-                    </a>
-                </td>
-                <td>
-                    <table class="navcontainer">
-                        <tr>
-                            <td><a href="overzicht-zwemlessen.html" class="nav active">Zwemlessen</a></td>
-                            <td><a href="overzicht-sportkampen.html" class="nav ">Sportkampen</a></td>
-                            <td><a href="overzicht-voetbalkampen.html" class="nav ">Voetbalkampen</a></td>
-                            <td><a href="contact.html" class="nav ">Contact</a></td>
-                        </tr>
-                    </table>
+   
 
-                </td>
-            </tr>
-        </table>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a href="index.html"><img src="images/logo-sportfusion-camp.png" alt="Logo SportFusion Camp"
+                    height="25">
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="overzicht-zwemlessen.html">Zwemlessen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="overzicht-sportkampen.html">Sportkampen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="overzicht-voetbalkampen.html">Voetbalkampen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
     </header>
 
@@ -111,6 +120,9 @@
         <p>&copy; SportFusion Camp</p>
     </footer>
 
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

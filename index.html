@@ -5,54 +5,83 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SportFusion Camp: Waar Passie en Prestatie Samenkomen</title>
-    <link href="sf.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="sf.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta name="description" content="SportFusion Camp: Waar Passie en Prestatie Samenkomen">
 </head>
 
 <body>
 
-    <center>
-        <img src="images/logo-sportfusion-camp.png" alt="Logo SportFusion Camp">
-    </center>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a href="index.html"><img src="images/logo-sportfusion-camp.png" alt="Logo SportFusion Camp"
+            height="25">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="overzicht-zwemlessen.html">Zwemlessen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="overzicht-sportkampen.html">Sportkampen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="overzicht-voetbalkampen.html">Voetbalkampen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
-    <table width="776" border="0" align="center" cellpadding="10">
-        <tr>
-            <td width="350" height="50" align="center" valign="bottom">&nbsp;</td>
-            <td width="350" height="50" align="center" valign="bottom">&nbsp;</td>
-            <td width="350" height="50" align="center" valign="bottom">&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="center" valign="bottom">
-                <a href="overzicht-zwemlessen.html"><img src="images/b-mat-an-gelo-gRof2_Ftu7A-unsplash.jpg"
-                        height="125" class="imgZwem imgHover" /></a>
-                <span></span>
-            </td>
-            <td align="center" valign="bottom">
-                <a href="overzicht-sportkampen.html"><img src="images/frantzou-fleurine-thpUigrWn5g-unsplash.jpg"
-                        height="125" class="imgKamp imgHover" /></a>
-            </td>
-            <td align="center" valign="bottom">
-                <a href="overzicht-voetbalkampen.html"><img src="images/robert-collins-tvc5imO5pXk-unsplash.jpg"
-                        height="125" class="imgVoetKamp imgHover" /></a>
-            </td>
-        </tr>
-        <tr>
-            <td height="38" align="center" valign="middle" class="txtZwem">Zwemlessen</td>
-            <td align="center" valign="middle" class="txtKamp">Sportkampen</td>
-            <td align="center" valign="middle" class="txtVoetKamp">Voetbalkampen</td>
-        </tr>
-        <tr>
-            <td height="78" align="center" valign="middle" class="txtZwem txtNormal">Dompel jezelf onder en leer zwemmen
-                met onze professionele zwemlessen. Begin je zwemavontuur vandaag nog!
-            </td>
-            <td align="center" valign="middle" class="txtKamp txtNormal">
-                Verleg je grenzen en ontdek je passie voor sport bij onze Sportkampen. Klaar om te schitteren? Doe mee!
-            </td>
-            <td align="center" valign="middle" class="txtVoetKamp txtNormal">Je voetbaldromen beginnen hier. Sluit je
-                aan bij onze Voetbalkampen en word de ster van het veld.
-            </td>
-        </tr>
-    </table>
+    <div class="row justify-content-center mt-5">
+
+        <div class="card col-3" style="width: 18rem;">
+            <img src="images/b-mat-an-gelo-gRof2_Ftu7A-unsplash.jpg" 
+            class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zwemlessen</h5>
+              <p class="card-text">Dompel jezelf onder en leer zwemmen
+                met onze professionele zwemlessen. Begin je zwemavontuur vandaag nog!</p>
+              <a href="overzicht-zwemlessen.html" class="btn btn-primary">Ontdek meer</a>
+            </div>
+          </div>
+
+
+          <div class="card col-3" style="width: 18rem;">
+            <img src="images/frantzou-fleurine-thpUigrWn5g-unsplash.jpg" 
+            class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sportkampen</h5>
+              <p class="card-text">Verleg je grenzen en ontdek je passie voor sport bij onze Sportkampen. 
+                Klaar om te schitteren? Doe mee!</p>
+              <a href="overzicht-sportkampen.html" class="btn btn-primary">Ontdek meer</a>
+            </div>
+          </div>
+
+
+          <div class="card col-3" style="width: 18rem;">
+            <img src="images/robert-collins-tvc5imO5pXk-unsplash.jpg" 
+            class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Voetbalkampen</h5>
+              <p class="card-text">Je voetbaldromen beginnen hier. Sluit je
+                aan bij onze Voetbalkampen en word de ster van het veld.</p>
+              <a href="overzicht-voetbalkampen.html" class="btn btn-primary">Ontdek meer</a>
+            </div>
+          </div>
+
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
