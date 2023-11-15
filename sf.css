@@ -1,0 +1,414 @@
+/* CSS Document */
+
+body {
+    font: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #FFF;
+}
+
+.content {
+    width: 95%;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.content p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.content a {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.content ul {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    font-weight: normal;
+}
+
+.content ol {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-position: outside;
+    font-weight: normal;
+    list-style-type: decimal;
+}
+
+a:link {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077b6;
+    text-decoration: underline;
+}
+
+.opmerking {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #990000;
+    font-weight: normal;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    background-color: #FFCCFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #990000;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+.opmerking a {
+    color: #990000;
+    text-decoration: underline;
+}
+
+.bannerHome {
+    font-size: 1em;
+    color: #FF6600;
+    font-weight: normal;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    background-color: #FFF6BF;
+    background-position: center;
+    border: 3px solid #FFD324;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+.content td {
+    border: 1px solid #333333;
+}
+
+.content table {
+    border: 1px solid #333333;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.content .vet {
+    color: #0077b6;
+    font-weight: bolder;
+    font-variant: normal;
+    text-decoration: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.content input {
+    color: #07394F;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11px;
+    border: 1px solid #03045e;
+    padding: 2px;
+}
+
+.content select {
+    color: #07394F;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11px;
+    border: 1px solid #03045e;
+    padding: 2px;
+}
+
+.title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #0077b6;
+    font-weight: bolder;
+    font-variant: normal;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-decoration: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+    border-left-style: none;
+    border-top-color: #0077b6;
+    border-right-color: #0077b6;
+    border-bottom-color: #0077b6;
+    border-left-color: #0077b6;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.subtitle {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #03045e;
+    font-weight: bolder;
+    font-variant: normal;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+/* Structuur kolommen */
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #07394F;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: #FFF;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #07394F;
+}
+
+
+/* Navigatie */
+
+.navcontainer {
+    width: 200px;
+    top: 0px;
+    margin: 0px;
+    vertical-align: top;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navcontainer ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.navcontainer a {
+    display: block;
+    padding: 5px;
+    width: auto;
+    background-color: #03045e;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navcontainer a.active {
+    background-color: #00b4d8;
+}
+
+.navcontainer a:link,
+.navlist a:visited {
+    color: #EEE;
+    text-decoration: none;
+}
+
+;
+
+.navcontainer a:hover {
+    background-color: #07394f;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Success, notice and error boxes
+-------------------------------------------------------------- */
+
+.error,
+.notice,
+.success {
+    padding: .2em;
+    margin-bottom: 1em;
+    border: 2px solid #ddd;
+    font-weight: bold;
+    color: #000000;
+}
+
+.error {
+    color: #8a1f11;
+    border-color: #FBC2C4;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: #FBE3E4;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.notice {
+    color: #514721;
+    border-color: #FFD324;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: #FFF6BF;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+
+.success {
+    color: #264409;
+    border-color: #C6D880;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: #E6EFC2;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+
+.error a {
+    color: #8a1f11;
+}
+
+.notice a {
+    color: #514721;
+}
+
+.success a {
+    color: #264409;
+}
+
+.volzet {
+    color: #8a1f11;
+    border-color: #FBC2C4;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: #FBE3E4;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/***********************************************/
+
+
+/* Eigen stijl                                 */
+
+
+/***********************************************/
+
+.kamptitle {
+    font-size: 1.3em;
+    color: #00b4d8;
+    font-weight: bolder;
+    font-variant: normal;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.errmsg {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #FF0000;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.imgZwem {
+    border: 50px solid #03045e;
+}
+
+.imgKamp {
+    border: 50px solid #0077b6;
+}
+
+.imgVoetKamp {
+    border: 50px solid #00b4d8;
+}
+
+.imgHover:hover {
+    opacity: 0.4;
+}
+
+img {
+    border: 0px;
+    margin: 2px;
+}
+
+.txtZwem {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #03045e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.txtKamp {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.txtVoetKamp {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #00b4d8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.txtNormal {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+}

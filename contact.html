@@ -1,0 +1,106 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    <link rel="stylesheet" type="text/css" href="sf.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+
+    <title>SportFusion Camp :: contact</title>
+
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <a href="index.html"><img src="images/logo-sportfusion-camp.png" alt="Logo SportFusion Camp"
+                            height="25">
+                    </a>
+                </td>
+                <td>
+                    <table class="navcontainer">
+                        <tr>
+                            <td><a href="overzicht-zwemlessen.html" class="nav ">Zwemlessen</a></td>
+                            <td><a href="overzicht-sportkampen.html" class="nav ">Sportkampen</a></td>
+                            <td><a href="overzicht-voetbalkampen.html" class="nav ">Voetbalkampen</a></td>
+                            <td><a href="contact.html" class="nav active">Contact</a></td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="column">
+                <h1 class="title">Inschrijven</h1>
+
+                <h2>Inschrijvingsformulier</h2>
+                <form action="verwerk_inschrijving.php" method="post">
+                    <h3>Soort Kamp</h3>
+                    <label for="kamp_keuze">Selecteer het kamp:</label>
+                    <select id="kamp_keuze" name="kamp_keuze" required>
+                        <option value="zwemlessen">Zwemlessen</option>
+                        <option value="voetbalkamp">Voetbalkamp</option>
+                        <option value="sportkamp">Sportkamp</option>
+                    </select>
+                    <br>
+                    <label for="naam_kamp">Naam kamp:</label>
+                    <input type="text" id="naam_kamp" name="naam_kamp" required><br>
+
+
+                    <h3>Gegevens Deelnemer</h3>
+                    <label for="naam_deelnemer">Naam deelnemer:</label>
+                    <input type="text" id="naam_deelnemer" name="naam_deelnemer" required><br>
+
+                    <label for="geboortedatum">Geboortedatum:</label>
+                    <input type="date" id="geboortedatum" name="geboortedatum" required><br>
+
+                    <label for="medische_geschiedenis">Medische geschiedenis (indien van toepassing):</label>
+                    <textarea id="medische_geschiedenis" name="medische_geschiedenis"></textarea><br>
+
+                    <h3>Gegevens Ouders/Verzorgers</h3>
+                    <label for="naam_ouder">Naam ouder/verzorger:</label>
+                    <input type="text" id="naam_ouder" name="naam_ouder" required><br>
+
+                    <label for="email_ouder">E-mail ouder/verzorger:</label>
+                    <input type="email" id="email_ouder" name="email_ouder" required><br>
+
+                    <label for="telefoon_ouder">Telefoon ouder/verzorger:</label>
+                    <input type="tel" id="telefoon_ouder" name="telefoon_ouder" required><br>
+
+                    <input type="submit" value="Inschrijven">
+                </form>
+            </div>
+
+            <div class="column">
+                <img src="images/jeremiah-lawrence-I-GLN4EB3GU-unsplash.jpg" alt="Prinses" height="200">
+                <img src="images/jeremiah-lawrence-QBN_X4H0x9U-unsplash.jpg" alt="Zwemmen" height="200">
+                <img src="images/adria-crehuet-cano-LIhB1_mAGhY-unsplash.jpg" alt="Voetbal" height="200">
+            </div>
+        </div>
+
+        <h2>Contactgegevens</h2>
+        <p>Heeft u vragen of opmerkingen? Neem gerust contact met ons op:</p>
+        <p>Telefoon: (123) 456-7890</p>
+        <p>E-mail: info@SportFusionCamp.com</p>
+
+        <h2>Inschrijven</h2>
+        <p>U kunt uw kind inschrijven voor onze sportkampen door het inschrijvingsformulier in te vullen op onze
+            <a href="contact.html">contactpagina</a>.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; SportFusion Camp</p>
+    </footer>
+
+</body>
+
+</html>
