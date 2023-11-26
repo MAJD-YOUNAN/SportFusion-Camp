@@ -5,15 +5,51 @@ body {
     font-size: 14px;
     color: #000;
     margin: 0;
+    padding: 0;
 }
 
-main {
-    margin: 0 auto;
-    padding: 15px;
+/*----------Home----------------*/
+
+ 
+ .carousel-item {
+    height: 100vh; 
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 1200px;
-    background-color: #FFF;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+  }
+
+  .carousel-caption {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    color: white !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
 }
+
+.carousel-caption h1,
+.carousel-caption p {
+    margin: 0 !important;
+}
+
+
+
+
 
 .content {
     width: 95%;
@@ -183,15 +219,6 @@ a:hover {
 
 
 /* Structuur kolommen */
-
-.container {
-    display: flex;
-}
-
-.column {
-    flex: 1;
-    padding: 10px;
-}
 
 footer {
     padding: 20px;
@@ -412,3 +439,22 @@ img {
     text-decoration: none;
     font-weight: normal;
 }
+
+.textVoetbal{
+    font-size: 17px;
+}
+
+.cardHeight{
+    height: auto !important;
+    background-color: #2facef !important;
+}
+
+.form-container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
